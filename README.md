@@ -7,7 +7,7 @@ The purpose of this project is to demonstrate the scraping capabilities of Selen
 ### Usage
 Customize the scraper by modifying the rize-scraper.ipynb (jupyter notebook) file:
 
-```
+```python
 blog_link = []
 blog_title = []
 blog_auth = []
@@ -20,7 +20,7 @@ driver = webdriver.Chrome(chrome_options)
 ```
 Change the URL variable to a desired page that you would like to scrape
 
-```
+```python
 # Find all blog links
 blogs = driver.find_elements(
     By.CSS_SELECTOR,
