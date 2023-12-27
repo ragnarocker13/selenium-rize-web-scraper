@@ -33,7 +33,7 @@ for blog in blogs:
     blog_auth.append(blog.find_element(By.CLASS_NAME, "fl-post-grid-author").text)
     blog_date.append(blog.find_element(By.CLASS_NAME, "fl-post-grid-date").text)
 ```
-Following this, change also the css selectors of the elements that you need to scrape.
+Following this, update the selector of the elements that you need to scrape.
 
 ### Requirements
 
